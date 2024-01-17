@@ -18,7 +18,7 @@ public class SpicejetGridTest {
     WebDriver driver;
     @BeforeClass
     public void startBrower(){
-        System.setProperty("webdriver.chrome.driver", "/Users/AtharvaChiplunkar/Library/CloudStorage/GoogleDrive-ac2434@g.rit.edu/My Drive/test-automation/internship/drivers/chromedriver");
+        //System.setProperty("webdriver.chrome.driver", "/Users/AtharvaChiplunkar/Library/CloudStorage/GoogleDrive-ac2434@g.rit.edu/My Drive/test-automation/internship/drivers/chromedriver");
         driver = new ChromeDriver(); 
         System.out.println("Browser Started");
     }
